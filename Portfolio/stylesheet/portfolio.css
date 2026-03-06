@@ -1,7 +1,7 @@
 /***** GENERAL STYLING *****/
 /* Body */
 body {
-    margin: 0%; /* This ensures the site displays all the way to the edge of the browser screen */
+    margin: 0%  /* This ensures our site displays all the way to the edge of the browser screen */
 }
 
 /* Heading 1 elements */
@@ -15,14 +15,14 @@ h1 {
 
 /* Heading 1 element hover effect */
 h1:hover {
-    filter: grayscale(2%); /* Adds a slightly gray filter to the h1 headings when hovered over */
-    transform: scale(1.2); /* When the h1 elements are hovered over they increase in size by 1.2 */
-    transition: transform 0.5s; /* This causes the transformation to last 1 second */
+    filter: grayscale(5%); /* Adds a slightly gray filter to the h1 headings when hovered over */
+    transform: scale(1.1); /* When the h1 elements are hovered over they increase in size by 1.1 */
+    transition: transform 1s; /* This causes the transformation to last 1 second */
 }
 
 /* Styling for portfolio title text */
 .white-text {
-    color: #ffff; /* This is used to change the color of the portfolio title text */
+    color: #fff; /* This is used to change the color of the portfolio title text */
 }
 
 /* Paragraph elements */
@@ -64,8 +64,8 @@ q {
 
 /* Image elements */
 img {
-    filter: grayscale(55%); /* This rids our pictures of 75% of their color */
-    border-radius: 10px; /* Gives all images slightly rounded corners */
+    filter: grayscale(75%); /* This rids our pictures of 75% of their color */
+    border-radius: 8px; /* Gives all images slightly rounded corners */
     max-width: 100%; /* Ensures all images stay within the width of their container */
     height: 340px; /* Sets the height of all images */
     display: block; /* By specifying block display we can ensure our images are able to be centered */
@@ -75,7 +75,7 @@ img {
 
 /* Image element hover effects */
 img:hover {
-    filter: grayscale(0%);  /* Brings back all of the image's color when hovered over */
+	filter: grayscale(5%);  /* Brings back most of the image's color when hovered over */
     transition: transform 1s; /* Transition lasts 1 second */
 	transform: scale(1.1); /* Image is increased slightly when hovered over */
 }
@@ -91,7 +91,7 @@ img:hover {
 
 /* Styling for footer element */
 footer {
-    padding: 1%; /* This gives the footer padding that is equal to 1% of the width of the element's area */
+    padding: 2%; /* This gives the footer padding that is equal to 2% of the width of the element's area */
     background-color: white;
 }
 /***** END OF GENERAL STYLING *****/
